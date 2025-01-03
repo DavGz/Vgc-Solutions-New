@@ -1,8 +1,8 @@
 import React from "react";
-import Head from './.jsx'
+import Head from './design.jsx'
 import Footer from "../footer.jsx";
 
-function AppDesi() {
+function AppDesign() {
   return (
     <div>
       <Head/>
@@ -13,4 +13,4 @@ function AppDesi() {
   );
 }
 
-export default AppDesi
+export default AppDesign

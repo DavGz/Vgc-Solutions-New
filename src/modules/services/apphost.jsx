@@ -1,5 +1,5 @@
 import React from "react";
-import Head from './.jsx'
+import Head from './hosting.jsx+'
 import Footer from "../footer.jsx";
 function AppHost() {
   return (
