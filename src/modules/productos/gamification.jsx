@@ -7,7 +7,7 @@ import Test3 from "../../assets/img/Slotmachine-GIF.webp"
 import Test4 from "../../assets/img/Spinningwheel-GIF.webp"
 
 const Card = ({ iconClass, title, text }) => (
-    <div className="card card-big col-3">
+    <div className="card card-big col-8 col-lg-3">
         <span className="icons-new"><i className={iconClass}></i></span>
         <strong className="titulo">{title}</strong>
         <p className="texto-card">{text}</p>
@@ -18,6 +18,7 @@ const Cardalt = ({ imgSrc, title, text }) => (
         <div className="card card-promotions" style={{ width: 18 + 'rem' }}>
             <img src={imgSrc} className="card-img-top" alt={title} />
             <div className="card-body">
+                
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{text}</p>
             </div>
