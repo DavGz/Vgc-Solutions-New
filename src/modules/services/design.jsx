@@ -1,5 +1,7 @@
 import React from "react";
 import Meta from "../meta.jsx";
+import Test from "../../assets/img/logoteco.webp"
+
 function head() {
     return <>
             <Meta
@@ -8,7 +10,7 @@ function head() {
                 ogDescription="Diseño de Aplicaciones a la palma de tu mano, nos adaptamos a ti"
             />
 
-            
+
             <section className="hero-products">
 
 

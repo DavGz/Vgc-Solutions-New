@@ -1,5 +1,7 @@
 import React from "react";
 import Meta from "../meta.jsx";
+import Test from "../../assets/img/logoteco.webp"
+
 function head() {
     return <>
             <Meta
@@ -38,7 +40,7 @@ function head() {
 
 
                 <div className="mails">
-                    
+
                 </div>
             </section>
 

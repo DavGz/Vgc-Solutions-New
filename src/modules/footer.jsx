@@ -4,7 +4,7 @@ import React from "react";
 function footer() {
     return (
         <div>
-                <section className="contact" id="contacts">
+                <section className="contact d-none" id="contacts">
                     <div className="center-text">
                         <h2>Contactanos</h2>
                     </div>

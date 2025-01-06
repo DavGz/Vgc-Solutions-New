@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client"
 import { StrictMode } from "react"
 import Meta from "../meta"
 import Navbar from "../navbar"
+import App from "./appdesign"
 
 
 createRoot(document.getElementById('meta')).render(
