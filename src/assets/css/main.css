@@ -872,6 +872,13 @@ a {
 }
 
 
+.principal-text span{
+  color: #309fff;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
 .products-description-app{
   display: flex;
   flex-direction: column;
@@ -1029,7 +1036,7 @@ body{
 }
 .cards-products{
   display: flex;
-  gap: 20px;
+  gap: 70px;
 }
 .card-img-top{
   width: 90%;

@@ -42,8 +42,8 @@ function head() {
             <section className="hero-products">
 
                     <div className="principal-text col-5">
-                        <h1>Texto Principal</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo omnis veniam reprehenderit, dolores molestiae deserunt fuga ullam fugit doloribus maxime illum maiores harum necessitatibus numquam reiciendis aspernatur minus recusandae esse tempore vero velit aperiam. Corporis unde quasi fugit quibusdam.</span>
+                        <h1>Gamificacion</h1>
+                        <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
                     </div>
 
 
@@ -58,11 +58,11 @@ function head() {
                 </div>
 
                 <div className="principal-text">
-                    <PrincipalText title="Productos" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi." />
-                    <PrincipalText title="Productos" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi." />
-                    <PrincipalText title="Productos" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi." />
-                    <PrincipalText title="Productos" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi." />
-                    <PrincipalText title="Productos" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi." />
+                    <PrincipalText title="Raspadito" text='Es un juego en el que los usuarios "raspan" una superficie virtual para revelar premios o sorpresas ocultas. Es una forma divertida y emocionante de mantener a los usuarios comprometidos y motivados' />
+                    <PrincipalText title="Slots" text="Las máquinas tragamonedas virtuales permiten a los usuarios girar los rodillos para intentar obtener combinaciones ganadoras. Este tipo de juego es popular por su simplicidad y la emoción de ganar premios." />
+                    <PrincipalText title="Ruleta" text="En este juego, los usuarios giran una rueda virtual para ganar premios. La ruleta es conocida por su elemento de azar y la emoción que genera al esperar el resultado." />
+                    <PrincipalText title="Cupon" text="Los cupones virtuales ofrecen descuentos o promociones especiales a los usuarios. Pueden ser obtenidos a través de diversas actividades en la web, incentivando la participación y la lealtad del cliente." />
+                    <PrincipalText title="Codigo QR" text="Los códigos QR pueden ser escaneados por los usuarios para acceder a promociones, descuentos o contenido exclusivo. Es una forma interactiva y moderna de conectar el mundo físico con el digital." />
 
                 </div>
             </section>
@@ -70,12 +70,15 @@ function head() {
             <section className="products-selection">
                 <div className="col-10 cards-container">
                     <div className="cards-products">
-                        <Cardalt imgSrc={Test1} title="Card title" text="Some" />
-                        <Cardalt imgSrc={Test2} title="Card title" text="Some" />
-                        <Cardalt imgSrc={Test3} title="Card title" text="Some" />
-                        <Cardalt imgSrc={Test4} title="Card title" text="Some" />
+                        <Cardalt imgSrc={Test1} title="Raspadito" text="Some" />
+                        <Cardalt imgSrc={Test2} title="Slots" text="Some" />
+                        <Cardalt imgSrc={Test3} title="Ruleta" text="Some" />
                     </div>
                 </div>
+                <div className="cards-products">
+                        <Cardalt imgSrc={Test4} title="Cupón" text="Some" />
+                        <Cardalt imgSrc={Test4} title="Codigo QR" text="Some" />
+                    </div>
             </section>
 
             <section className="news">
@@ -83,9 +86,9 @@ function head() {
                         <h1 className="title-favor">Puntos a Favor</h1>
                     </div>
                     <div className="containercards">
-                        <Card iconClass="fas fa-globe" title="Lorem, ipsum." text="Lorem ipsum dolor sit amet consectetur." />
-                        <Card iconClass="fas fa-handshake" title="Lorem, ipsum." text="Lorem ipsum dolor sit amet consectetur." />
-                        <Card iconClass="fas fa-ticket-alt" title="Lorem, ipsum." text="Lorem ipsum dolor sit amet consectetur." />
+                        <Card iconClass="fas fa-globe" title="Rapidez" text="Lorem ipsum dolor sit amet consectetur." />
+                        <Card iconClass="fas fa-handshake" title="Confianza" text="Lorem ipsum dolor sit amet consectetur." />
+                        <Card iconClass="fas fa-ticket-alt" title="Versatilidad" text="Lorem ipsum dolor sit amet consectetur." />
                     </div>
             </section>
     </>

@@ -7,25 +7,40 @@ function head() {
                 description="Diseño de Aplicaciones a la palma de tu mano, nos adaptamos a ti"
                 ogDescription="Diseño de Aplicaciones a la palma de tu mano, nos adaptamos a ti"
             />
-            <section className="hero-host">
+            <section className="hero-products">
+                    <div className="image-container col-5">
+                        <img src={Test} className="main-img-products hero-img" alt="" />
+                    </div>
+
                     <div className="principal-text col-5">
-                        <h1>Texto Principal</h1>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo omnis veniam reprehenderit, dolores molestiae deserunt fuga ullam fugit doloribus maxime illum maiores harum necessitatibus numquam reiciendis aspernatur minus recusandae esse tempore vero velit aperiam. Corporis unde quasi fugit quibusdam.</span>
+                        <h1>Gestion de Dominios y Correos</h1>
+                        <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
                     </div>
             </section>
+            
+            <section className="products-description">
+                <div className="image-container">
+                    <img src={Test} className="main-img-products" alt="" />
+                </div>
 
-            <section className="hero-host">
-                <div>
-
+                <div className="principal-text">
+                        <h1>Titulo de de parrafo principal</h1>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </section>
 
-            <section className="hero-host">
-                <div>
+
+            <section className="gestionew">
+                <div className="domains">
 
                 </div>
-            </section>
 
+
+                <div className="mails">
+                    
+                </div>
+            </section>
 
     </>
         
