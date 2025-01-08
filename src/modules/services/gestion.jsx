@@ -26,23 +26,27 @@ function head() {
                 </div>
 
                 <div className="principal-text">
-                        <h1>Titulo de de parrafo principal</h1>
+                        <h1>Gestion de Dominios</h1>
                         
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </section>
 
 
-            <section className="gestionew">
-                <div className="domains">
+            <section className="products-description">
 
+                <div className="principal-text">
+                        <h1>Correos Empresariales </h1>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
 
-
-                <div className="mails">
-
+                <div className="image-container">
+                    <img src={Test} className="main-img-products" alt="" />
                 </div>
+
             </section>
+
 
     </>
         

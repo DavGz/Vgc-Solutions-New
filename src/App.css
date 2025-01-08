@@ -94,3 +94,15 @@ footer{
   display: flex;
   gap: 15px;
 }
+
+
+.images-new{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.fileInput{
+  font-weight: 700;
+  padding: 10px;
+}

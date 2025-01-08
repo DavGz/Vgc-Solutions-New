@@ -12,47 +12,7 @@ function head() {
             <section className="hero-products app-products">
                 <h1>App Design</h1>
                 <p>Productos Description</p>
-                <div className="slider movil">
-                        <div className="payment-info-mobile " id="payment-slide">
 
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                            <a href="#"><img className="footer-img" src={Test}></img></a>
-
-                        </div>
-                    </div>
             </section>
              
             <section className="products-description-app">
@@ -164,6 +124,48 @@ function head() {
 
             </section>
 
+
+                <div className="slider movil">
+                        <div className="payment-info-mobile " id="payment-slide">
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                            <a href="#"><img className="footer-img" src={Test}></img></a>
+
+                        </div>
+                </div>
     </>
         
   

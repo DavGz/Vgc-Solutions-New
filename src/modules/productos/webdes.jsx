@@ -38,25 +38,11 @@ function head() {
             <section  className="products-selection">
                 
 
-                <div className="product-individual">
-                    
-                    <div className="principal-title">
-                        <strong className="title-web">
-                            TitlePrincipal
-                        </strong>
-                    </div>
-                    <div className="principal-content">
-                        <div className="img-container"></div>
-                        <div className="content-info"></div>
-                    </div>
-
-
-                </div>
 
                 <div className="product-individual">
                     <div className="principal-title">
                         <strong className="title-web">
-                            TitlePrincipal
+                            NewsPaper
                         </strong>
 
                     </div>
@@ -69,7 +55,7 @@ function head() {
                 <div className="product-individual">
                     <div className="principal-title">
                         <strong className="title-web">
-                            TitlePrincipal
+                            Landing Pages
                         </strong>
 
                     </div>
@@ -83,7 +69,7 @@ function head() {
                 <div className="product-individual">
                     <div className="principal-title">
                         <strong className="title-web">
-                            TitlePrincipal
+                            Posicionamiento Web
                         </strong>
 
                     </div>
@@ -93,6 +79,23 @@ function head() {
                     </div>
 
                 </div>
+
+
+                <div className="product-individual">
+                    
+                    <div className="principal-title">
+                        <strong className="title-web">
+                            Seo Organico
+                        </strong>
+                    </div>
+                    <div className="principal-content">
+                        <div className="img-container"></div>
+                        <div className="content-info"></div>
+                    </div>
+
+
+                </div>
+
             </section>
 
     </>
