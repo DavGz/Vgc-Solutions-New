@@ -10,32 +10,30 @@ function Navbar() {
                     <img className="logo-nav" src={Logo} alt="Logo" />
                 </a>
                 <div className="bx bx-menu" id="menu-icon"></div>
-                <ul className="navlist">
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="">Productos</a></li>
-                    <li><a href="#about">Servicios</a></li>
-                    <li><a href="#services">Casos de Exito</a></li>
-                    <li><a href="#products">Desarrollo</a></li>
-                    <li><a href="#products">Industria</a></li>
+                <ul class="nav">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Productos</a>
+                        <ul>
+                            <li><a href="">Desarrollo Web</a></li>
+                            <li><a href="">Desarrollo de Aplicaciones</a></li>
+                            <li><a href="">Gamificación y Fidelizacion</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Servicios</a>
+                        <ul>
+                            <li><a href="">Gestion de Dominios y Correos</a></li>
+                            <li><a href="">Hospedaje de Apps</a></li>
+                            <li><a href="">Diseño y Branding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Casos de Exito</a></li>
 
-                    <li className="contact-cell"><a href="#contacts">Contáctanos</a></li>
-                </ul>
+			</ul>
+
                 <div className="top-btn">
                     <a className="h-btn" href="#contacts">Contáctanos</a>
                 </div>
-                <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle bx bx-menu" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    </button>
-                    <ul className="dropdown-menu menu-drop" >
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#about">Productos</a></li>
-                        <li><a href="#about">Servicios</a></li>
-                        <li><a href="#services">Casos de Exito</a></li>
-                        <li><a href="#deportesline">Desarrollo</a></li>
-                        <li><a href="#products">Industria</a></li>
-                        <li className="contact-cell"><a href="#contacts">Contáctanos</a></li>
-                    </ul>
-                </div>
+
                 <div className="dropdown idiomas">
                     <button className="btn btn-secondary dropdown-toggle idiomas" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="/assets/img/es.svg" style={{ width: '2rem' }} alt="ES" />
