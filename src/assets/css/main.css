@@ -1367,3 +1367,34 @@ body{
     justify-content: center;
 }
 
+.card-img-alt{
+  width: 40%;
+}
+
+.card-alt{
+  display: flex;
+  padding: 24px;
+  flex-direction: row;
+  box-shadow: 3px 3px 5px 0px #00000070;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.productos-suceso{
+  display: flex;
+  position: relative;
+  gap: 21px;
+  flex-direction: column;
+  align-items: center;
+}
+.successproducts{
+  position: relative;
+}
+.pr-1{
+  left: 10%;
+}
+
+.pr-2{
+  right: 10%;
+}
+

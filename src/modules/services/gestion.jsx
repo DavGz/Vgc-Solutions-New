@@ -27,7 +27,6 @@ function head() {
 
                 <div className="principal-text">
                         <h1>Gestion de Dominios</h1>
-                        
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </section>
@@ -37,7 +36,6 @@ function head() {
 
                 <div className="principal-text">
                         <h1>Correos Empresariales </h1>
-                        
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
 
