@@ -2,6 +2,36 @@ import React from "react";
 import Meta from "../meta.jsx";
 import Test from "../../assets/img/logoteco.webp"
 
+
+const DescriptionProducts = ({title, text }) => (
+    <div className="product-div alt">
+        <div>
+            <strong className="description principal-title">{title} </strong>
+            <p className="text-info-products">{text}</p>
+        </div>
+
+    </div>
+);
+
+const ProductSelection = ({text, imgSrc, InfoContent}) => (
+    <div className="product-individual">
+        <div className="principal-title">
+            <strong className="title-web">
+                {text}
+            </strong>
+
+        </div>
+        <div className="principal-content">
+            <div className="img-container">
+                <img src={imgSrc} alt="" />
+            </div>
+            <div className="content-info">
+                <p className="information">{InfoContent}</p>
+            </div>
+        </div>
+    </div>
+
+);
 function head() {
     return <>
             <Meta
@@ -18,16 +48,17 @@ function head() {
             <section className="products-description">
 
                 <div className="principal-text">
-                    <strong className="description principal-title">Diseño Web </strong>
-                    <p className="text-info-products">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi.</p>
-                    <strong className="description">Productos </strong>
-                    <p className="text-info-products">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi.</p>
-                    <strong className="description">Productos </strong>
-                    <p className="text-info-products">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi.</p>
-                    <strong className="description">Productos </strong>
-                    <p className="text-info-products">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi.</p>
-                    <strong className="description">Productos </strong>
-                    <p className="text-info-products">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores error accusantium pariatur deserunt provident similique necessitatibus illo nesciunt velit! Quasi. Lorem ipsum dolor sit amet consectetur.</p>
+
+                   <DescriptionProducts title="Productos" text="Texto Inferior"></DescriptionProducts>
+
+                   <DescriptionProducts title="Productos" text="Texto Inferior"></DescriptionProducts>
+
+                   <DescriptionProducts title="Productos" text="Texto Inferior"></DescriptionProducts>
+
+                   <DescriptionProducts title="Productos" text="Texto Inferior"></DescriptionProducts>
+
+                   <DescriptionProducts title="Productos" text="Texto Inferior"></DescriptionProducts>
+
                 </div>
                 
                 <div className="image-container">
@@ -38,63 +69,15 @@ function head() {
             <section  className="products-selection">
                 
 
+                <ProductSelection text="NewsPaper" InfoContent=""></ProductSelection>
 
-                <div className="product-individual">
-                    <div className="principal-title">
-                        <strong className="title-web">
-                            NewsPaper
-                        </strong>
+                <ProductSelection text="Landing Pages" InfoContent=""></ProductSelection>
 
-                    </div>
-                    <div className="principal-content">
-                        <div className="img-container"></div>
-                        <div className="content-info"></div>
-                    </div>
-                </div>
+                <ProductSelection text="Posicionamiento Web" InfoContent=""></ProductSelection>
 
-                <div className="product-individual">
-                    <div className="principal-title">
-                        <strong className="title-web">
-                            Landing Pages
-                        </strong>
-
-                    </div>
-                    <div className="principal-content">
-                        <div className="img-container"></div>
-                        <div className="content-info"></div>
-                    </div>
-                    
-                </div>
-
-                <div className="product-individual">
-                    <div className="principal-title">
-                        <strong className="title-web">
-                            Posicionamiento Web
-                        </strong>
-
-                    </div>
-                    <div className="principal-content">
-                        <div className="img-container"></div>
-                        <div className="content-info"></div>
-                    </div>
-
-                </div>
+                <ProductSelection text="Seo Organico" InfoContent=""></ProductSelection>
 
 
-                <div className="product-individual">
-                    
-                    <div className="principal-title">
-                        <strong className="title-web">
-                            Seo Organico
-                        </strong>
-                    </div>
-                    <div className="principal-content">
-                        <div className="img-container"></div>
-                        <div className="content-info"></div>
-                    </div>
-
-
-                </div>
 
             </section>
 

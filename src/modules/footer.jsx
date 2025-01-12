@@ -14,9 +14,6 @@ function footer() {
                 </section>
 
 
-
-
-
             <div className="footer">
                 <div className="copyright">
                     <p>2023 Veneto Games Corp // VGC , Todos los derechos reservados</p>

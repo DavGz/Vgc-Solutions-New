@@ -1364,7 +1364,7 @@ body{
 }
 .idiomas ul a{
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 .card-img-alt{

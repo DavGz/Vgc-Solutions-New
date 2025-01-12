@@ -12,6 +12,7 @@ function head() {
             </div>
         </div>
     );
+
     return (
         <>
             <Meta
@@ -52,6 +53,12 @@ function head() {
                         }
                     </div>
                     <div className="successproducts col-5 pr-2">
+                        {
+                            <Cardalt imgSrc={Test} title="Texto Aqui" text="Texto Aqui"></Cardalt>
+                        }
+                    </div>
+
+                    <div className="successproducts col-5 pr-1">
                         {
                             <Cardalt imgSrc={Test} title="Texto Aqui" text="Texto Aqui"></Cardalt>
                         }

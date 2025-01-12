@@ -23,7 +23,6 @@ function head() {
 
             <section className="hero-products">
 
-
                     <div className="image-container col-5">
                         <img src={Test} className="main-img-products hero-img" alt="" />
                     </div>
@@ -32,9 +31,6 @@ function head() {
                         <h1>Diseño y Branding</h1>
                         <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
                     </div>
-                
-
-
 
             </section>
             
