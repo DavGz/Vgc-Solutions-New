@@ -14,10 +14,10 @@ function head() {
                         <img src={Test} className="main-img-products hero-img" alt="" />
                     </div>
 
-                    <div className="principal-text col-5">
-                        <h1>Gestion de Dominios y Correos</h1>
-                        <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
-                    </div>
+                <div className="principal-text col-5">
+                    <h1>Gestion de Dominios y Correos</h1>
+                    <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
+                </div>
             </section>
             
             <section className="products-description">
@@ -38,7 +38,7 @@ function head() {
                         <h1>Correos Empresariales </h1>
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-
+ 
                 <div className="image-container">
                     <img src={Test} className="main-img-products" alt="" />
                 </div>

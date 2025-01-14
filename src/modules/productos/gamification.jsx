@@ -6,31 +6,31 @@ import Test2 from "../../assets/img/Scratch&Win-gif.gif"
 import Test3 from "../../assets/img/Slotmachine-GIF.webp"
 import Test4 from "../../assets/img/Spinningwheel-GIF.webp"
 
-const Card = ({ iconClass, title, text }) => (
-    <div className="card card-big col-8 col-lg-3">
-        <span className="icons-new"><i className={iconClass}></i></span>
-        <strong className="titulo">{title}</strong>
-        <p className="texto-card">{text}</p>
-    </div>
-);
-const Cardalt = ({ imgSrc, title, text }) => (
-    <a href="" className="principal-link">
-        <div className="card card-promotions" style={{ width: 18 + 'rem' }}>
-            <img src={imgSrc} className="card-img-top" alt={title} />
-            <div className="card-body">
-                
-                <h5 className="card-title">{title}</h5>
-                <p className="card-text">{text}</p>
-            </div>
+    const Card = ({ iconClass, title, text }) => (
+        <div className="card card-big col-8 col-lg-3">
+            <span className="icons-new"><i className={iconClass}></i></span>
+            <strong className="titulo">{title}</strong>
+            <p className="texto-card">{text}</p>
         </div>
-    </a>
-);
-const PrincipalText = ({ title, text }) => (
-    <>
-        <strong className="description sub-title">{title}</strong>
-        <p className="text-info-products">{text}</p>
-    </>
-);
+    );
+    const Cardalt = ({ imgSrc, title, text }) => (
+        <a href="" className="principal-link">
+            <div className="card card-promotions" style={{ width: 18 + 'rem' }}>
+                <img src={imgSrc} className="card-img-top" alt={title} />
+                <div className="card-body">
+                    
+                    <h5 className="card-title">{title}</h5>
+                    <p className="card-text">{text}</p>
+                </div>
+            </div>
+        </a>
+    );
+    const PrincipalText = ({ title, text }) => (
+        <>
+            <strong className="description sub-title">{title}</strong>
+            <p className="text-info-products">{text}</p>
+        </>
+    );
 function head() {
     return <>
             <Meta
@@ -70,25 +70,25 @@ function head() {
             <section className="products-selection">
                 <div className="col-10 cards-container">
                     <div className="cards-products">
-                        <Cardalt imgSrc={Test1} title="Raspadito" text="Some" />
-                        <Cardalt imgSrc={Test2} title="Slots" text="Some" />
-                        <Cardalt imgSrc={Test3} title="Ruleta" text="Some" />
+                        <Cardalt imgSrc={Test1} title="Raspadito" text="Un raspadito es un juego de lotería instantánea en el que los jugadores raspan una superficie para revelar símbolos o números ocultos." />
+                        <Cardalt imgSrc={Test2} title="Slots" text="En estos juegos, los jugadores giran los carretes con la esperanza de alinear símbolos coincidentes en una línea de pago para ganar premios." />
+                        <Cardalt imgSrc={Test3} title="Ruleta" text="La ruleta es conocida por su emoción y la variedad que ofrece, lo que la convierte en un juego popular tanto en casinos físicos como en plataformas en línea." />
                     </div>
                 </div>
                 <div className="cards-products">
-                        <Cardalt imgSrc={Test4} title="Cupón" text="Some" />
-                        <Cardalt imgSrc={Test4} title="Codigo QR" text="Some" />
+                        <Cardalt imgSrc={Test4} title="Cupón" text="Los cupones de gamificación son incentivos digitales que se utilizan en sistemas gamificados para motivar y recompensar a los usuarios." />
+                        <Cardalt imgSrc={Test4} title="Codigo QR" text="La implementación de códigos QR en cupones facilita la distribución y el canje de recompensas, mejorando la experiencia del usuario y aumentando la participación." />
                     </div>
             </section>
 
             <section className="news">
                     <div>
-                        <h1 className="title-favor">Puntos a Favor</h1>
+                        <h1 className="title-favor">Te Ofrecemos</h1>
                     </div>
                     <div className="containercards">
-                        <Card iconClass="fas fa-globe" title="Rapidez" text="Lorem ipsum dolor sit amet consectetur." />
-                        <Card iconClass="fas fa-handshake" title="Confianza" text="Lorem ipsum dolor sit amet consectetur." />
-                        <Card iconClass="fas fa-ticket-alt" title="Versatilidad" text="Lorem ipsum dolor sit amet consectetur." />
+                        <Card iconClass="fas fa-globe" title="Eficiencia" text="Una gamificación eficiente utiliza elementos como puntos, recompensas, niveles y desafíos de manera estratégica para maximizar la participación y el rendimiento de los usuarios, asegurando que cada componente del sistema contribuya al logro de los objetivos deseados." />
+                        <Card iconClass="fas fa-handshake" title="Confianza" text="La confianza se construye a través de la consistencia en las recompensas, la claridad en las reglas del juego y la protección de la privacidad del usuario. Un sistema gamificado que inspira confianza es más probable que mantenga a los usuarios comprometidos y motivados a largo plazo." />
+                        <Card iconClass="fas fa-ticket-alt" title="Versatilidad" text="Un sistema versátil puede ser utilizado en una variedad de escenarios, desde la educación y el entrenamiento corporativo hasta el marketing. Esto implica que las mecánicas de juego pueden ser personalizadas y ajustadas para satisfacer las necesidades específicas de diferentes audiencias y propósitos." />
                     </div>
             </section>
     </>

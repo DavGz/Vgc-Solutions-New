@@ -4,7 +4,7 @@ import Test from "../../assets/img/logoteco.webp"
 
 
 const DescriptionProducts = ({title, text }) => (
-    <div className="product-div alt">
+    <div className="product-div ">
         <div>
             <strong className="description principal-title">{title} </strong>
             <p className="text-info-products">{text}</p>
@@ -67,16 +67,14 @@ function head() {
             </section>
 
             <section  className="products-selection">
-                
 
-                <ProductSelection text="NewsPaper" InfoContent=""></ProductSelection>
+                <ProductSelection text="Landing Pages" InfoContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta quia saepe vitae beatae magni exercitationem! Voluptatem recusandae facere ex est dolores, cumque, deserunt quasi obcaecati ad, temporibus mollitia numquam facilis quisquam. Sit ea suscipit laboriosam, quo ipsum saepe debitis!"></ProductSelection>
 
-                <ProductSelection text="Landing Pages" InfoContent=""></ProductSelection>
+                <ProductSelection text="Posicionamiento Web" InfoContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta quia saepe vitae beatae magni exercitationem! Voluptatem recusandae facere ex est dolores, cumque, deserunt quasi obcaecati ad, temporibus mollitia numquam facilis quisquam. Sit ea suscipit laboriosam, quo ipsum saepe debitis!"></ProductSelection>
 
-                <ProductSelection text="Posicionamiento Web" InfoContent=""></ProductSelection>
+                <ProductSelection text="Seo Organico" InfoContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta quia saepe vitae beatae magni exercitationem! Voluptatem recusandae facere ex est dolores, cumque, deserunt quasi obcaecati ad, temporibus mollitia numquam facilis quisquam. Sit ea suscipit laboriosam, quo ipsum saepe debitis!"></ProductSelection>
 
-                <ProductSelection text="Seo Organico" InfoContent=""></ProductSelection>
-
+                <ProductSelection text="NewsPaper" InfoContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta quia saepe vitae beatae magni exercitationem! Voluptatem recusandae facere ex est dolores, cumque, deserunt quasi obcaecati ad, temporibus mollitia numquam facilis quisquam. Sit ea suscipit laboriosam, quo ipsum saepe debitis!"></ProductSelection>
 
 
             </section>

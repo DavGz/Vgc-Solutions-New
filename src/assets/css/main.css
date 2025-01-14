@@ -868,18 +868,24 @@ a {
 
 .charts-explication{
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
 }
 
+.instrucciones strong{
+  color: #0a8df3;
 
+}
 .principal-text span{
   color: #309fff;
   font-weight: 500;
   font-size: 17px;
 }
 
-
+.text-info-alt{
+  color: #000;
+}
 .products-description-app{
+  gap: 17px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -893,6 +899,9 @@ a {
 }
 .slider{
   overflow-x: hidden;
+}
+.title-web{
+  font-size: 20px;
 }
 body{
   overflow-x: hidden;
@@ -982,7 +991,7 @@ body{
 
 .product-div{
   width: 50%;
-  gap: 70px;
+  gap: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -996,6 +1005,7 @@ body{
 .product-div p{
   margin: 0px;
 }
+
 .products-selection{
   display: flex;
   gap: 21px;
@@ -1061,6 +1071,9 @@ body{
   width: 90%;
 }
 
+.product-individual{
+  text-align: center;
+}
 
 .icons-new{
   font-size: 4rem;
@@ -1077,6 +1090,26 @@ body{
 
 
 @media (max-width:768px){
+  .nav-mobile{
+    display: none;
+  }
+  .principal-text span {
+    color: #309fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.hero-products {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 2px solid;
+  align-items: center;
+}
+.principal-text {
+  padding: 0px 20px;
+  width: 100%;
+}
   .cards-products {
     display: flex;
     gap: 20px;
@@ -1169,7 +1202,7 @@ body{
 
 .instrucciones{
   height: 100px;
-  width: 210px;
+  width: 246px;
   border: none;
   background-color: transparent;
   color: black;
@@ -1335,6 +1368,16 @@ body{
 	display: none;
 }
 
+
+.subOptions{
+  transition: all 500ms ease;
+}
+.subOptions:hover{
+  scale: 1.05;
+  transition: all 500ms ease;
+  margin-left: 6px;
+}
+
 .fa-thumbs-up{
 	cursor: pointer;
 	transition: all 0.4s;
@@ -1413,7 +1456,7 @@ ul {
   gap: 50px;
 }
 .nav li a {
-  background-color: #ffffff;
+  background-color: #ffffff00;
   font-weight: 600;
   color: #047ae3;
   text-decoration: none;
@@ -1422,18 +1465,23 @@ ul {
   text-transform: capitalize;
 }
 
-.nav li a:hover {
-  background-color:#ffffff;
-}
+
 
 .nav li ul {
-  display:none;
-  position:absolute;
-  min-width:140px;
+  cursor: not-allowed;
+  display: none;
+  background: white;
+  position: absolute;
+  min-width: 140px;
+  border-radius: 11px;
+  transition: all 500ms ease;
+  opacity: 0;
 }
 
 .nav li:hover > ul {
+  opacity: 1;
   display:block;
+  transition: all 500ms ease;
 }
 
 .nav li ul li {
@@ -1443,4 +1491,7 @@ ul {
 .nav li ul li ul {
   right:-140px;
   top:0px;
+}
+.card-big{
+  padding: 15px;
 }

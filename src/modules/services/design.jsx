@@ -12,6 +12,20 @@ const Textproduct = ({ imgSrc, title, text }) => (
     </div>
 );
 
+
+
+const TypesOfBrandings = ({title, text }) => (
+    <div className="brandings">
+        <div className='branding-text'>
+            <strong className='title-brand'>{title}</strong>
+            <p className="parrafo-brandings">{text}</p>
+        </div>
+    <div>
+
+    </div>
+</div>
+);
+
 function head() {
     return <>
             <Meta
@@ -59,7 +73,7 @@ function head() {
                     <Textproduct imgSrc={Test} title="CSS" text="Some" />
 
                 </div>
-
+                                                 
 
             </section>
 
@@ -75,33 +89,13 @@ function head() {
                     <div className="branding">
                         <div className='branding-corpse'>
                             <div className='brading-types'>
-                                <div className="brandings">
-                                    <div className='branding-text'>
-                                        <strong className='title-brand'>Modelos de Diseño</strong>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
-                                    </div>
-                                    <div>
 
-                                    </div>
-                                </div>
-                                <div className="brandings">
-                                    <div className='branding-text'>
-                                        <strong className='title-brand'>Diseño de Imagenes</strong>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </div>
-                                <div className="brandings">
-                                    <div className='branding-text'>
-                                        <strong className='title-brand'>Aun por verse</strong>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
-                                </div>
+                               <TypesOfBrandings  title="Modelos de Diseño" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+                                
+                               <TypesOfBrandings  title="Diseño de Imagenes" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+
+                               <TypesOfBrandings  title="Personalidad Para tu Marca" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+
                             </div>
                         </div>
                     </div>
@@ -112,3 +106,4 @@ function head() {
   }
   
   export default head
+ 
