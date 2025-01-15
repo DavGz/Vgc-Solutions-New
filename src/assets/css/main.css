@@ -401,7 +401,18 @@ header.sticky {
   box-shadow: 0 0 5px var(--main-color);
   margin-left: -0.6rem;
 }
-
+.title-design{
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
+}
+.branding-tipes{
+  display: flex
+  ;
+      flex-direction: column;
+      justify-content: center;
+}
 .row {
   border-radius: 28px;
   border: 1px solid transparent;
@@ -468,6 +479,7 @@ form textarea {
 }
 .branding-corpse{
   display: flex;
+  margin-top: 2rem;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
@@ -488,7 +500,12 @@ form input::placeholder, form textarea::placeholder {
   color: rgb(102,102,102);
   font-size: 15px;
 }
-
+.title-brand{
+  font-weight:600;
+}
+.parraftitle{
+  font-size: 20px;
+}
 form .send-btn {
   padding: 11px 26px;
   background: var(--main-color);

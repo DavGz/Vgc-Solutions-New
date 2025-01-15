@@ -85,8 +85,8 @@ function head() {
             <section className="designs">
                     <div className="design">
                         <div className="title-design">
-                            <strong className='title-brand'>Branding</strong>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
+                            <h2 className='title-brand'>Branding</h2>
+                            <p className='parraftitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
                         </div>
                     </div>
 

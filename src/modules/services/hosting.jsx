@@ -50,8 +50,6 @@ function head() {
                         </div>
                     </div>
                 </div>
-
-
             </section>
     </>
   
