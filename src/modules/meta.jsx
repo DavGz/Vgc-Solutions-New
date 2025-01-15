@@ -24,6 +24,8 @@ function Meta({ title, description, ogDescription }) {
             <link rel="stylesheet" href="../../assets/fonts/fontawesome5-overrides.min.css" />
             <link rel="stylesheet" href="../../assets/css/main.css " />
             <link rel="stylesheet" href="../../assets/css/Social-Menu-Sticky.css" />
+            <link rel="stylesheet" href="./src/assets/css/main.css " />
+
         </Helmet>
     );
 }

@@ -14,9 +14,9 @@ function Navbar() {
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Productos</a>
                         <ul>
-                            <li><a className="subOptions" href="">Desarrollo Web</a></li>
-                            <li><a className="subOptions"  href="">Desarrollo de Aplicaciones</a></li>
-                            <li><a className="subOptions"  href="">Gamificación y Fidelizacion</a></li>
+                            <li><a  className="subOptions" href="./indexWeb.html">Desarrollo Web</a></li>
+                            <li><a className="subOptions"  href="./indexApp.html">Desarrollo de Aplicaciones</a></li>
+                            <li><a className="subOptions"  href="./appGaming.html">Gamificación y Fidelizacion</a></li>
                         </ul>
                     </li>
                     <li><a href="">Servicios</a>
@@ -26,7 +26,7 @@ function Navbar() {
                             <li><a className="subOptions"  href="">Diseño y Branding</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Casos de Exito</a></li>
+                    <li><a href="./casesofexit.html">Casos de Exito</a></li>
 			    </ul>
 
                 <div className="top-btn">

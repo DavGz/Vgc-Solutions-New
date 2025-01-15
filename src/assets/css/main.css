@@ -1368,7 +1368,10 @@ body{
 	display: none;
 }
 
-
+.social{
+  display: flex
+  ;
+}
 .subOptions{
   transition: all 500ms ease;
 }
