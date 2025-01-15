@@ -453,7 +453,11 @@ header.sticky {
   justify-content: center;
   margin-top: 4.2rem;
 }
-
+.info-designs{
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
 .contact-form form {
   position: relative;
   width: 600px;
@@ -462,7 +466,12 @@ header.sticky {
 form textarea {
   height: 150px;
 }
-
+.branding-corpse{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
 form input, form textarea {
   width: 100%;
   padding: 20px;
@@ -526,10 +535,24 @@ form .send-btn:hover {
   color: black;
   font-size: 20px;
 }
-
+.php-img{
+  width: 75%;
+}
+.react-img{
+  width: 42%;
+}
+.css-img{
+  width: 43%;
+}
+.js-img{
+  width: 32%;
+}
+.html-img{
+  width: 40%;
+}
 .deportes-p{
   text-align: center;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 900;
   margin-bottom: -20px;
 }
@@ -985,18 +1008,18 @@ body{
   }
 }
 
-.product-div img{
-  width: 25%;
-}
 
-.product-div{
-  width: 50%;
-  gap: 30px;
+.product-div {
+  gap: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
-
+.products-design-alt{
+  display: flex
+;
+}
 .cards-container{
   display: flex;
   justify-content: center;
@@ -1024,17 +1047,19 @@ body{
 .texto-card{
   text-align: center;
 }
+
 .title-favor{
   margin-bottom: 2rem;
   text-align: center;
 }
+
 .icons-new i{
   font-size: 6rem;
   margin: 10px;
 }
 .alt{
   width: 90%;
-  height: 50vh;
+  height: 35vh;
 }
 
 .see-text{

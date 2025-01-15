@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import Meta from "../meta.jsx";
 import Test from "../../assets/img/logoteco.webp"
+import Js from "../../assets/img/js.png"
+import Html from "../../assets/img/html.png"
+import Php from "../../assets/img/php.png"
+import Css from "../../assets/img/css.png"
+import ReactIcon from "../../assets/img/react.png"
 
-const Textproduct = ({ imgSrc, title, text }) => (
+const Textproduct = ({ imgSrc,imgClass, title, text }) => (
     <div className="product-div alt">
+        <img src={imgSrc} className={imgClass} alt="" />
         <div>
-            <h4>{title}</h4>
-            <p className="product-description">{text}</p>
+            <h4 className='info-designs'>{title}</h4>
         </div>
-        <img src={imgSrc} alt="" />
     </div>
 );
 
@@ -60,17 +64,17 @@ function head() {
 
                 </div>
 
-                <div className="products-design">
+                <div className="products-design-alt">
 
-                    <Textproduct imgSrc={Test} title="Html" text="Some" />
+                    <Textproduct imgSrc={Html} imgClass="html-img" title="Html" />
                     
-                    <Textproduct imgSrc={Test} title="JavaScript" text="Some" />
+                    <Textproduct imgSrc={Js} imgClass="js-img" title="JavaScript" />
 
-                    <Textproduct imgSrc={Test} title="PHP" text="Some" />
+                    <Textproduct imgSrc={Php} imgClass="php-img" title="PHP" />
 
-                    <Textproduct imgSrc={Test} title="React" text="Some" />
+                    <Textproduct imgSrc={ReactIcon} imgClass="react-img" title="React"/>
 
-                    <Textproduct imgSrc={Test} title="CSS" text="Some" />
+                    <Textproduct imgSrc={Css} imgClass="css-img" title="CSS"/>
 
                 </div>
                                                  
@@ -97,6 +101,10 @@ function head() {
                                <TypesOfBrandings  title="Personalidad Para tu Marca" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
 
                             </div>
+                            <div className="image-container col-5">
+                                <img src={Test} className="main-img-products hero-img" alt="" />
+                            </div>
+
                         </div>
                     </div>
             </section>

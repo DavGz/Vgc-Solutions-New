@@ -21,9 +21,9 @@ function Navbar() {
                     </li>
                     <li><a href="">Servicios</a>
                         <ul>
-                            <li><a className="subOptions"  href="">Gestion de Dominios y Correos</a></li>
-                            <li><a className="subOptions"  href="">Hospedaje de Apps</a></li>
-                            <li><a className="subOptions"  href="">Diseño y Branding</a></li>
+                            <li><a className="subOptions"  href="./gestion.html">Gestion de Dominios y Correos</a></li>
+                            <li><a className="subOptions"  href="./hosting.html">Hospedaje de Apps</a></li>
+                            <li><a className="subOptions"  href="./design.html">Diseño y Branding</a></li>
                         </ul>
                     </li>
                     <li><a href="./casesofexit.html">Casos de Exito</a></li>
