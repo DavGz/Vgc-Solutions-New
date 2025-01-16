@@ -47,13 +47,13 @@ function head() {
 
                     <div className="principal-text col-5">
                         <h1>Diseño y Branding</h1>
-                        <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
+                        <span>Desarrollo y branding son dos pilares fundamentales para el éxito de cualquier empresa. El desarrollo se refiere al proceso de creación y mejora de productos, servicios o sistemas. En el ámbito tecnológico, esto incluye el diseño, la programación y la implementación de aplicaciones web, móviles y software. Este proceso abarca desde la planificación inicial y el diseño de la interfaz de usuario hasta la codificación, pruebas y lanzamiento del producto final. El objetivo del desarrollo es crear soluciones eficientes, funcionales y atractivas que satisfagan las necesidades de los usuarios.</span>
                     </div>
 
             </section>
             
             <section className="products-design">
-                <div>
+                <div className="productos-titulo">
                     <div className="center-text">
                         <h2>Nuestros <span>Metodos</span> de Desarrollo</h2>
                     </div>
@@ -86,7 +86,6 @@ function head() {
                     <div className="design">
                         <div className="title-design">
                             <h2 className='title-brand'>Branding</h2>
-                            <p className='parraftitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!</p>
                         </div>
                     </div>
 
@@ -94,11 +93,12 @@ function head() {
                         <div className='branding-corpse'>
                             <div className='brading-types'>
 
-                               <TypesOfBrandings  title="Modelos de Diseño" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+                               <TypesOfBrandings  title="Modelos de Diseño" text="Los modelos de diseño son enfoques estructurados que guían el proceso de creación de productos visuales y funcionales. Estos modelos incluyen principios y metodologías que ayudan a diseñadores a planificar, desarrollar y evaluar sus proyectos." ></TypesOfBrandings>
                                 
-                               <TypesOfBrandings  title="Diseño de Imagenes" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+                               <TypesOfBrandings  title="Diseño de Imagenes" text="El diseño de imágenes es el proceso de crear y manipular gráficos visuales para comunicar un mensaje o una idea de manera efectiva. Los diseñadores de imágenes utilizan herramientas de software como Adobe Photoshop, Illustrator y otros programas de diseño gráfico para crear logotipos, infografías y otros tipos de contenido visual." ></TypesOfBrandings>
 
-                               <TypesOfBrandings  title="Personalidad Para tu Marca" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, molestias!" ></TypesOfBrandings>
+                               <TypesOfBrandings  title="Personalidad Para tu Marca" text="ahora de personalidad para tu marca
+La personalidad de tu marca es la combinación de características humanas que se asocian con tu marca. Esta personalidad se refleja en la forma en que la marca se comunica, se comporta y se presenta ante su audiencia. Una personalidad de marca bien definida ayuda a diferenciar tu marca de la competencia y a crear una conexión emocional con los consumidores." ></TypesOfBrandings>
 
                             </div>
                             <div className="image-container col-5">

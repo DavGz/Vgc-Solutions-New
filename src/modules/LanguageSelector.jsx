@@ -29,7 +29,13 @@ const LanguageSelector = () => {
           </a>
         </div>
       )}
+      <script>
+      
+      </script>
     </div>
+
+
+
   );
 };
 

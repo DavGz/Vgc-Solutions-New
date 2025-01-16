@@ -13,7 +13,10 @@ function head() {
             <section className="hero-products">
                     <div className="principal-text col-5">
                         <h1>Hosting de Aplicaciones</h1>
-                        <span>Nuestra aplicación para sistemas de ERP, en colaboración con nuestros aliados de Sunmi, incorpora módulos de promociones gamificadas. Los usuarios pueden interactuar de manera dinámica con juegos como raspaditos y slots, lo que les permite experimentar la emoción de revelar premios o sorpresas ocultas en una pantalla. Esta estrategia de gamificación no solo aumenta el compromiso del consumidor, sino que también hace que la experiencia de compra sea más divertida y atractiva.</span>
+                        <span>
+En Vgc Solution, nos especializamos en ofrecer servicios de hosting de aplicaciones de alta calidad para asegurar que tus aplicaciones y sitios web estén siempre operativos y accesibles. Con nuestra infraestructura robusta y múltiples servidores, garantizamos un tiempo de actividad óptimo y una experiencia continua para tus usuarios.
+
+Nuestro servicio de hosting incluye soporte técnico dedicado para resolver cualquier problema que puedas enfrentar, ayudándote en la configuración y mantenimiento de tus aplicaciones. Nos enorgullecemos de proporcionar una atención al cliente excepcional, asegurando que todas tus consultas sean respondidas de manera rápida y eficiente.</span>
                     </div>
 
                     <div className="image-container col-5">
@@ -21,7 +24,7 @@ function head() {
                     </div>
             </section>
             
-            <section className="products-description">
+            <section className="products-description principal-text">
                 <div className="image-container">
                     <img src={Test} className="main-img-products" alt="" />
                 </div>
@@ -30,7 +33,8 @@ function head() {
                     <div>
                         <h1>Hosting para Aplicaciones</h1>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>
+                            En Vgc Solution, ofrecemos servicios de hosting de aplicaciones diseñados para garantizar que tus aplicaciones y sitios web estén siempre disponibles y funcionando sin problemas. Nuestra infraestructura avanzada y múltiples servidores aseguran un tiempo de actividad óptimo, minimizando cualquier interrupción y proporcionando una experiencia continua para tus usuarios.</p>
                     </div>
                 </div>
             </section>

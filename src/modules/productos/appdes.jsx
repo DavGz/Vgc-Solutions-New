@@ -4,7 +4,7 @@ import Test from "../../assets/img/logoteco.webp"
 
 const CardApp = ({ imgSrc, title, text }) => (
     <div className="product-div alt">
-        <img src={imgSrc} alt="Img-Products" />
+        <img  className="imagenes-productos"  src={imgSrc} alt="Img-Products" />
         <div>
             <h4>{title}</h4>
             <p className="product-description">{text}</p>
@@ -19,7 +19,7 @@ const CardAppAlt = ({ imgSrc, title, text }) => (
             <h4>{title}</h4>
             <p className="product-description">{text}</p>
         </div>
-        <img src={imgSrc} alt="Img-Products" />
+        <img className="imagenes-productos" src={imgSrc} alt="Img-Products" />
     </div>
 );
 

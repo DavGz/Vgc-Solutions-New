@@ -20,7 +20,6 @@ function Meta({ title, description, ogDescription }) {
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap" />
             <link rel="stylesheet" href="../../assets/fonts/fontawesome-all.min.css" />
-            <link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css" />
             <link rel="stylesheet" href="../../assets/fonts/fontawesome5-overrides.min.css" />
             <link rel="stylesheet" href="../../assets/css/main.css " />
             <link rel="stylesheet" href="../../assets/css/Social-Menu-Sticky.css" />
